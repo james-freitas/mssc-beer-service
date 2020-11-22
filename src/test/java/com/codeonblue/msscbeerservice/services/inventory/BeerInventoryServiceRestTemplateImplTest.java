@@ -25,6 +25,5 @@ class BeerInventoryServiceRestTemplateImplTest {
         Integer qoh = beerInventoryService.getOnhandInventory(BeerLoader.BEER_1_UUID);
 
         System.out.println(qoh);
-
     }
 }
